@@ -1,0 +1,35 @@
+.item {
+  font-size: 3rem;
+  border: 5px solid transparent;
+}
+
+.container {
+  border: 5px solid #3A0CA3;
+  background-color: #B58DF7;
+
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 75px);
+  place-content: center;
+}
+
+.item--1 {
+  border-color: #B5179E;
+  background-color: #EF81DE;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item--2 {
+  border-color: #3F37C9;
+  background-color: #938FE0;
+
+  grid-row: 2 / 4;
+}
+.item--3 {
+  border-color: #4895EF;
+  background-color: #B4D4F8;
+
+  /* grid-area: <row-start> / <colum-start> / <row-end> / <column-end>; */
+  grid-area: 2 / 2 / 4 / 4;
+}
