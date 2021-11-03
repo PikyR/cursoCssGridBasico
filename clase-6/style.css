@@ -1,0 +1,11 @@
+.item {
+  border: 5px solid #7209B7;
+  font-size: 1.5rem;
+}
+.container {
+  border: 5px solid #4361EE;
+  background-color: #C7D0FA;
+  display: grid;
+  grid-template-columns: minmax(50px, 300px) 200px minmax(60px, 250px);
+  grid-template-rows: repeat(3, auto);
+}
