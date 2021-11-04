@@ -1,0 +1,23 @@
+.hero {
+  padding-left: 8px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-auto-rows: 400px;
+  background-color: aquamarine;
+
+  &__left {
+    align-self: center;
+  }
+  &__title {}
+  &__description {}
+  &__button {}
+  // End left section
+
+  &__right {
+    & img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
