@@ -1,3 +1,11 @@
+$color-orange: #ff9000;
+$color-dark: #333333;
+$color-grey: #c9c8c9;
+
+$md: 1.6rem;
+$xl: 2rem;
+$xxl: 4rem;
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +17,11 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: $md;
   font-family: 'Roboto', sans-serif;
 }
 
 .main-container {
   max-width: 1200px;
-  // max-width: 768px;
   margin: 0 auto;
 }
